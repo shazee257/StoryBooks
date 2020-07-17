@@ -1,5 +1,3 @@
-const { model } = require("mongoose");
-
 module.exports = {
   ensureAuth: (req, res, next) => {
     if (req.isAuthenticated()) {
